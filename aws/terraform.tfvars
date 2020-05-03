@@ -12,3 +12,10 @@ public_cidrs = [
   "10.123.2.0/24"
 ]
 access_ip    = "0.0.0.0/0"
+
+
+# Compute
+key_name             = "tf_key"
+public_key_path      = "/home/cloud_user/.ssh/id_rsa.pub"
+server_instance_type = "t2.micro"
+instance_count       = 2
